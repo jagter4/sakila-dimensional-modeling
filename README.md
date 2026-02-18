@@ -203,5 +203,4 @@ The data warehouse is implemented as a **star schema** consisting of 7 dimension
 |`rental_amnt`|`payment.amount`|
 |`discount`, `tax`|Derived / business logic|
 
-> 📝 The fact table captures three different store perspectives (inventory, staff, and customer home store) as separate foreign keys — this design choice allows analysts to slice revenue by whichever store definition is most relevant to the business question.
 
