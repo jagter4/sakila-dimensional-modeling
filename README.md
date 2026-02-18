@@ -1,7 +1,4 @@
 
-
-# Sakila Data Warehouse - Dimensional Modeling Project
-
 ## 📋 Project Overview
 
 This project demonstrates a complete **data warehouse design and implementation** using the Sakila database as the source system. The project follows the **Kimball dimensional modeling methodology** to transform an OLTP database into an analytics-ready data warehouse optimized for business intelligence and reporting.
