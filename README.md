@@ -25,9 +25,6 @@ Before beginning the design process, we must analyze the source system.
 
 The **Sakila OLTP Database** consists of 15 normalized tables grouped into:
 
-You can find the You can find the ERD below:
-
-![Sakila ERD](source/drawSQL-image-export-2026-02-16.png).
 
 |Domain|Tables|Description|
 |---|---|---|
@@ -35,6 +32,9 @@ You can find the You can find the ERD below:
 |**Operations**|`store`, `inventory`|Physical inventory tracking|
 |**People**|`customer`, `staff`, `actor`, `address`, `city`, `country`|Entities and locations|
 |**Transactions**|`rental`, `payment`|Business events|
+
+You can find the You can find the ERD below:
+![Sakila ERD](source/drawSQL-image-export-2026-02-16.png)
 
 For further investigation of the source data, see the [source system analysis](source/source_system_analysis.sql).
 
