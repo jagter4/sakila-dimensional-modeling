@@ -25,7 +25,9 @@ Before beginning the design process, we must analyze the source system.
 
 The **Sakila OLTP Database** consists of 15 normalized tables grouped into:
 
-You can find the ![ERD](source/drawSQL-image-export-2026-02-16.png).
+You can find the You can find the ERD below:
+
+![Sakila ERD](source/drawSQL-image-export-2026-02-16.png).
 
 |Domain|Tables|Description|
 |---|---|---|
@@ -75,7 +77,10 @@ Facts are the **measurements** of the event, the actual numbers to analyze.
 |`discount`|Discounts given|
 |`tax`|Tax collected|
 
-After completing the four-step process, see the resulting [logical model](https://claude.ai/chat/dwh/logical_model.png).
+After completing the four-step process, see the resulting logical model below:
+
+![Logical Model](dwh/logical_model.png)
+
 
 ---
 
